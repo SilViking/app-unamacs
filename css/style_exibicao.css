@@ -1,0 +1,190 @@
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+.arcabouco {
+    background-image: url('../img/fundo-menu.png');
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.header {
+    background-color: #1b676b;
+}
+
+.nav-link{
+    height: 60px;
+    color: #ddd9ce;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.logo {
+    margin: 20px 0 0 20px;
+}
+
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: left;
+    margin-top: 100px;
+}
+
+.banner h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 68px;
+    line-height: 75px;
+    font-weight: 1000;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.banner p {
+    margin: 1em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: white;
+}
+
+.btn {
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#first-button {
+    color: white;
+    border-width: medium;
+    border-color: white;
+    margin-top: 20px;
+    width: 300px;
+    margin: 40px 0 0 140px;
+
+}
+
+.color-word {
+    color: #A1DBB2;
+}
+
+#conteudo-inicial{
+    position:absolute;
+    top: 0;
+    left: 50px;
+    width: 100%;
+} 
+
+.navbar {
+    padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover,
+.navbar-dark .navbar-nav .nav-item.active .nav-link {
+    background-color: #fff;
+    color: #1b676b;
+}
+
+#itens-menu  {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    align-items: center;  
+    font-family: 'Righteous', cursive;
+}
+
+#itens-menu .nav-item {
+    margin-left: 10px;
+}
+
+.container {
+    color: white;
+    font-family: 'Righteous', cursive;
+    margin-left: 100px; 
+    background-size: cover;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #fff;
+    border: 2px solid grey;
+}
+
+footer {
+    background-color: #A1DBB2;
+    color: #fff;
+    width: 100%;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media (max-width: 768px){
+    .banner {
+        padding: 180px 0;
+    }  
+    
+    #logo {
+        position: relative;
+        padding: 20px 0 0 90px;
+        align-items: center;
+    }
+
+    .navbar-dark .navbar-toggler {
+        border: none;
+        color: #fff;
+        border: 2px solid grey;
+    }
+    
+}
+
+#lagoa {
+    border-radius: 20px;
+    border: 3px solid #115154;
+
+}
+
+#lake-ex{
+    border-radius: 20px;
+    border: 2px solid #115154;
+    width: 40%;
+    height: auto;
+    align-items: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: 'Righteous', cursive;
+}
+
+.text-center{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+
+.card .thead-dark th td{
+    font-family: 'Righteous', cursive;
+}
